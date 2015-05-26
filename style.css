@@ -52,7 +52,6 @@ table {
 	position: relative; 
 }
 
-
 /*START HERE*/
 
 
@@ -75,12 +74,10 @@ table {
 	src: url("LFT_Etica_Semibold.otf") format("opentype");
 }
 
-
 body{
 	background-color: rgb(26, 35, 37);
 	border-top: 2px solid rgb(248, 105, 90);
 }
-
 
 .main_container{
 	border-bottom: 1px solid rgb(54, 53, 53);
@@ -89,7 +86,6 @@ body{
 	padding-bottom: 50px;
 	margin-bottom: 30px;
 }
-
 
 .logo{
 	height: 80px;
@@ -117,14 +113,12 @@ body{
 	float: left;
 }
 
-
 .descrip1{
 	width: 50%;
 	padding: 0 60px;
 	/*float: left;*/
 	box-sizing: border-box;
 }
-
 
 .descrip_header{
 	font-family: 'QuatroSlab';
@@ -141,7 +135,6 @@ body{
 	font-size: 11px;
 }
 
-
 .picture1{
 	float: right;
 	width: 50%;
@@ -157,8 +150,9 @@ body{
 .descrip_blurb{
 	color: rgb(171, 173, 173);
 	font-family: 'LFT_Etica_Book';
-	font-size: 11px;
-	line-height: 16px;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 12px;
 }
 
 .descrip_check{
@@ -166,11 +160,14 @@ body{
 	font-family: 'LFT_Etica_Book';
 	margin-top: 25px;
 	font-size: 11px;
+	display: inline;
 }
 
-.fa-long-arrow-right{
-	padding-left: 3px;
-	font-size: 5px;
+.arrow{
+	font-family: Arial;
+	color: rgb(1, 191, 193);
+	display: inline;
+	margin-left: 3px;
 }
 
 .descrip_footer{
@@ -190,7 +187,7 @@ button{
 	background-color: rgb(1, 191, 193);
 	display: inline-block;
 	margin-left: 20px;
-	text-decoration: none;
+	border: none;
 }
 
 .buy_button{
@@ -201,7 +198,6 @@ button{
 	color: white;
 	font-size: 9px;
 }
-
 
 
 /*RESPONSIVE*/
@@ -258,7 +254,6 @@ button{
 	}
 
 }
-
 
 @media (max-width: 409px){
 	.header{
